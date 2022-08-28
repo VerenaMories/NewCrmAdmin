@@ -1,0 +1,12 @@
+.btnCard{
+    border-color: rgb(93, 120, 255)!important;
+    color: rgb(93, 120, 255)!important; 
+text-align: center;
+}
+.btnCard2{
+    background: rgb(93, 120, 255);
+    color: rgb(255, 255, 255);
+}
+.allInOne{
+    width: 70%;
+}

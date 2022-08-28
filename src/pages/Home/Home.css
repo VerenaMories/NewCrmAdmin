@@ -1,0 +1,330 @@
+
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.69);
+}
+.home-cap button:hover
+{
+    background-color: white;
+    color: black !important;
+}
+.home-cap button
+{
+    transition: all 0.5s;
+}
+.header-desc {
+    max-width: 500px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+.home-cap h1
+{
+    font-size: 50px !important;
+}
+
+/* GLOBAL STYLES */
+
+/* The typing effect */
+/* @keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+} */
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  10% { border-color: #586bb5 }
+}
+.animated-text {
+    font-family: monospace;
+    overflow: hidden;
+    height: 1.1em;
+    word-wrap: break-word;
+    white-space: nowrap;
+    animation: typing 4s steps(16) forwards;
+    display: block;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 16ch;
+    }
+  }
+ 
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter1 #text {
+  /* display :inline-flex; */
+  text-align: center;
+  color: #4ccfe2;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid #586bb5; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 7s infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+   100% {
+    width: 0;
+  }
+ 
+}
+.homgBg{
+  background-image: url('../../Images/hero-banner.png');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+.btnContainer{
+  display: flex;
+  justify-content: center;
+}
+.bookDemo{
+  color: white;
+  width: auto;
+  background-color: #5d78ff!important;
+  border: #ffffff!important;
+  border-radius: 4px 4px 4px 4px;
+  padding-left: 30px!important;
+  padding-right: 30px!important;
+
+}
+.bookDemo:hover{
+  background-color: #6173ce!important;
+  color: white;
+
+}
+.imgContainer{
+  display: flex;
+  justify-content: center;
+}
+.brand{
+  height: 20vh;
+  width: 50%;
+}
+.digitail{
+  height: 70vh!important;
+}
+@media only screen and (max-width: 600px) {
+  .brand {
+   width:100%!important;
+
+  }
+  .digitail{
+width: 100%!important;
+height: 30vh!important;
+  }
+}
+.discover{
+  background-color: #edefff;
+}
+.btnContainer{
+  display: flex;
+  justify-content: center;
+}
+.bookDemo{
+  color: white;
+  width: auto;
+  background-color: #5d78ff!important;
+  border: #ffffff!important;
+  border-radius: 4px 4px 4px 4px;
+  padding-left: 30px!important;
+  padding-right: 30px!important;
+
+}
+.bgblue{
+  background-image: url(../../Images/f.png);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+   }
+.layer{
+      background-color: rgba(	93, 120, 255, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+   }
+.leftContainer{
+      width: 90%;
+      height: 90%;
+      background-color: #edefff;
+      background-position: left top;
+      background-repeat: no-repeat;
+  
+      background-size: cover;
+      border-radius: 50px 50px 200px 100px;
+      border-radius: 50px 50px 200px 100px;
+      overflow: hidden;
+      box-shadow: 4px 6px 6px 0px ;
+
+   }
+.rightContainer{
+      background-position: left top;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 80%;
+      background-size: cover;
+      border-radius: 100px 50px 50px 200px;
+      background-color:#edefff ;
+      border-radius: 100px 50px 50px 200px;
+      overflow: hidden;
+      box-shadow: 4px 6px 6px 0px ;
+   }
+.postContent{
+      margin-top: 0;
+      margin-bottom: 20px;
+      display: block;
+      font-size: 20px;
+    
+   }
+.line{
+    background-image: url(../../Images/Vector-170.png);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+   }
+   .group{
+    width: 42%;
+    padding-top: 25%;
+   }
+   .group1{
+    width: 42%;
+   }
+   .group2{
+    width: 42%;
+
+   }
+.innerLine{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ align-content: space-around;
+ justify-content: space-evenly;
+}     
+.bgYellow{
+ background-color: #ffecc3;;
+}
+.changeColor:hover{
+color: #4ccfe2!important;
+}
+.health{
+  background-position: left top;
+  background-repeat: no-repeat;
+height: 30vh;
+  background-size: cover;
+  border-radius: 50px 100px 200px 100px;
+  background-color: #f5faff;
+  border-radius: 50px 100px 200px 100px;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+}
+.online{
+  background-position: left top;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    border-radius: 100px 200px 100px 100px;
+    background-color: #f5faff;
+    border-radius: 100px 200px 100px 100px;
+    overflow: hidden;
+    padding: 40px 0px 0px 0px;
+
+}
+.Invoicing{
+  background-position: left top;
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+    border-radius: 50px 200px 150px 100px;
+    background-color:#f5faff;
+    border-radius: 50px 200px 150px 100px;
+    overflow: hidden;
+}
+.Stock{
+  background-position: left top;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  border-radius: 100px 150px 100px 100px;
+  background-color:#f5faff;
+  border-radius: 100px 150px 100px 100px;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+}
+.petParent{
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color:#f5faff;
+
+  background-size: cover;
+  border-radius: 50px 200px 200px 100px;
+  border-radius: 50px 200px 200px 100px;
+  overflow: hidden;
+}
+.chat{
+  background-position: left top;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    border-radius: 100px 100px 200px 50px;
+    background-color:#f5faff;
+    border-radius: 100px 100px 200px 50px;
+    overflow: hidden;
+}
+.reports{
+
+  background-position: left top;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    border-radius: 50px 100px 100px 100px;
+    background-color:#f5faff;
+    border-radius: 50px 100px 100px 100px;
+    overflow: hidden;
+}
+.data{
+  background-position: left top;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  border-radius: 100px 200px 100px 100px;
+  background-color:#f5faff;
+  border-radius: 100px 200px 100px 100px;
+  overflow: hidden;
+}
+.sap{
+  width: 100%;
+}
+.bookDemo2{
+  color: white;
+  width: auto;
+  background-color: #4ccfe2!important;
+  border: #ffffff!important;
+  border-radius: 4px 4px 4px 4px;
+  padding-left: 30px!important;
+  padding-right: 30px!important;
+
+}
+.btnContainerLeft{
+  display: flex;
+
+}
